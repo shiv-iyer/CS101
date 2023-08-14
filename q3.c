@@ -3,7 +3,7 @@
 
 // display the squares and cubes of numbers from 0 to 10, and use tab characters \t to separate the output into columns
 
-int main(void){
+int main(void) {
     printf("N \t N^2 \t N^3");
     for (int i = 0; i <= 10; i++){ 
         // so all format specifiers have to be declared at the start.

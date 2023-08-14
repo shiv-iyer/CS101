@@ -2,7 +2,7 @@
 
 // q4: convert a time in seconds to hours, minutes and seconds in the format H:M:S
 
-int main(void){
+int main(void) {
     int timeInSeconds = 0;
     printf("Please enter an integer that represents a time in seconds!");
     scanf("%d", &timeInSeconds);

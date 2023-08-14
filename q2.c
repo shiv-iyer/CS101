@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void){
+int main(void) {
     int a, b = 0;
     printf("Please enter two numbers, separated by spaces! \n");
     scanf("%d %d", &a, &b);

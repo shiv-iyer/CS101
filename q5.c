@@ -2,7 +2,7 @@
 
 // formula: (mAh/1000) * V = Wh
 
-int main(void){
+int main(void) {
     int capacity = 0;
     int voltage = 0;
 
