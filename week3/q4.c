@@ -19,4 +19,17 @@ int main(void) {
         }
         printf("%d! = %d\n", user_input, sum);
     }
+
+    /*
+    alternate way, starting from 2 (Prof's way)
+
+    if (n < 0) {
+        printf("invalid input\n");
+    } else {
+        int factorial = 1;
+        for (int i = 2; i <= n; i++) {
+            factorial *= i;
+        }
+    }
+    */
 }
