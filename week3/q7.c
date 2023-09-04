@@ -70,4 +70,25 @@ int main(void) {
         }
         printf("%c\n", convert_num_to_letter(i));
     }
+
+    printf("\n");
+
+    // fifth and final loop: star patterns
+
+    // top half first
+    for (int i = 0; i < user_input / 2; i++) {
+        // loop for initial number of spaces
+        for (int j = 0; j < i; j++) {
+            printf(" ");
+        }
+        printf("*");
+        // loop for middle spaces
+        for (int j = 0; j <= i; j++) {
+            printf(" ");
+        }
+        printf("*");
+        printf("\n");
+    }
+
+    // not sure .... this is so tricky
 }

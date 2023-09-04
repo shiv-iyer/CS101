@@ -11,7 +11,7 @@ int main(void) {
     printf("Please enter the number of columns: ");
     scanf("%d", &columns);
 
-    // outer loop will be rows`
+    // outer loop will be rows
     for (int i = 0; i < rows; i++) {
         // inner loop will be columns
         for (int j = 0; j < columns; j++) {
